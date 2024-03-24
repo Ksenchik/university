@@ -1,0 +1,32 @@
+@font-face {
+  font-family: 'Manrope';
+  src: url('../../assets/fonts/Manrope-VariableFont_wght.woff2') format('woff2'),
+       url('../../assets/fonts/Manrope-VariableFont_wght.woff') format('woff'),
+       url('../../assets/fonts/Manrope-VariableFont_wght.ttf') format('truetype'),
+       url('../../assets/fonts/Manrope-VariableFont_wght.otf') format('opentype');
+}
+@font-face {
+  font-family: 'RFDewiExpanded';
+  src: url('../../assets/fonts/RFDewiExpanded-Semibold.woff2') format('woff2'),
+       url('../../assets/fonts/RFDewiExpanded-Semibold.woff') format('woff'),
+       url('../../assets/fonts/RFDewiExpanded-Semibold.ttf') format('truetype'),
+       url('../../assets/fonts/RFDewiExpanded-Semibold.otf') format('opentype');
+}
+@font-face {
+  font-family: 'RFDewi';
+  src: url('../../assets/fonts/RFDewi-Regular.woff2') format('woff2'),
+       url('../../assets/fonts/RFDewi-Regular.woff') format('woff'),
+       url('../../assets/fonts/RFDewi-Regular.ttf') format('truetype'),
+       url('../../assets/fonts/RFDewi-Regular.otf') format('opentype');
+}
+
+.container{
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+body{
+  color: $color-text;
+}
+

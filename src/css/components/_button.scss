@@ -1,0 +1,44 @@
+%btn{
+  background-color: $color-accent;
+  color: $color-text-white;
+  font-family: $second-family;
+  font-weight: 400;
+  line-height: 150%;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.2s;
+  &:hover{
+    background-color: darken($color-accent, 15%);
+  }
+  &:active{
+    background-color: darken($color-accent, 30%);
+  }
+}
+
+%btn-circle{
+  width: 48px;
+  height: 48px;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: all 0.2s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  &:hover{
+    background-color: $color-accent;
+  }
+  &:hover svg{
+    fill: $color-text-white;
+  }
+  &:active{
+    background-color: darken($color-accent, 15%);
+  }
+  svg{
+    width: 60%;
+    height: 60%;
+    fill: $color-text;
+    transition: all 0.2s;
+  }
+}
