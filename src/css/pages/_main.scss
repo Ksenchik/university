@@ -9,13 +9,17 @@
   display: flex;
   align-items: flex-end;
   @media (max-width: 768px){
-    align-items: flex-start;
+    display: block;
   }
 }
 
 .main__wrap{
   display: flex;
   flex-direction: column;
+  @media (max-width: 768px){
+    min-height: 100vh;
+    justify-content: space-between;
+  }
 }
 
 .main__pre-block{
@@ -113,7 +117,7 @@
   font-family: $second-family;
   @media (max-width: 768px){
     height: 52px;
-    margin: 150px 0 0;
+    margin: auto 0 50px;
   }
 }
 
